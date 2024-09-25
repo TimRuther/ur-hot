@@ -1,0 +1,158 @@
+/* Stile für den gesamten Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble.png'), 
+                linear-gradient(to bottom, #cce7ff, #0066cc); /* Muster über einem Farbverlauf */
+    background-blend-mode: overlay; /* Mischen von Hintergrundfarbe und Muster */
+    color: #333;
+}
+
+/* Header-Stile */
+header {
+    background-color: #003366; /* Dunkelblau für den Header */
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.header-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Stile für das Ente-Bild */
+.birb-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+}
+
+/* Abschnitt-Stile */
+.section {
+    padding: 60px 20px;
+}
+
+.section:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Fähigkeiten-Stile */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #003366; /* Dunkelblau */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 calc(25% - 10px);
+    text-align: center;
+}
+
+/* Portfolio-Stile */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    margin-top: 0;
+}
+
+/* Kontaktformular-Stile */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #003366; /* Dunkelblau */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #002244; /* Noch dunkleres Blau beim Hover */
+}
+
+/* Footer-Stile */
+footer {
+    background-color: #003366; /* Dunkelblau für den Footer */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
