@@ -5,7 +5,7 @@ body {
     text-align: center;
     padding: 50px;
     margin: 0;
-    background-image: url('herzen.png'); /* Ersetze dies mit dem Pfad zu deinem Bild */
+    background-image: url('https://media.istockphoto.com/id/508495114/de/foto/herzen-bokeh-hintergrund.jpg?s=612x612&w=0&k=20&c=rxgcWTHep2x2V9kFE2rLNnwfm6s6gn-jPn7RmpiOYSI='); /* Ersetze dies mit dem Pfad zu deinem Bild */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
